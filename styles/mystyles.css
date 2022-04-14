@@ -1,0 +1,72 @@
+/*Overwriting index.html color of subheading*/
+.subheading{
+   color: black;
+   font-weight: bold;
+} 
+   
+.inbody {
+    background-color:	#E6E6FA;
+}
+/*Overwriting aboutme.html font-family*/
+.edubody{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+.site-heading{
+    color: red;
+}
+/*Overwriting index.html font-style and test-align and font-family */
+.post-preview{
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.edubody navbar{
+    background-color: #ADD8E6;
+    
+}
+/*Overwriting about me.html color */
+body{
+    color: rgb(5, 84, 136);;
+}
+.conbody{
+    background-color: #dcdcdc;
+}
+.skbody{
+    background-color: #3CB371;
+}
+/*Overwriting about me.html color */
+.exbody{
+    background-color: 	#DCDCDC;
+}
+.form-control{
+    background-color: #DCDCDC;
+}
+
+/*Video position */
+
+.videowrapper{
+    position: relative;
+    padding: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+.videowrapper video {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.image{
+    text-align: center;
+}
+.image2{
+    text-align: center;
+}
+.image3{
+    text-align: center;
+}

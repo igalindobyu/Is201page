@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr;
+    grid-template-areas:
+    "nav nav nav "
+    "main main main"
+    "content1 content2 content3"
+    "footer footer footer";
+    grid-gap: .2rem .2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+nav{
+    background-color: aqua;
+    grid-area: nav;
+    text-align: center;
+}
+main{
+    background-color: blueviolet;
+    grid-area: main;
+    flex-grow: inherit;
+}
+
+#content1{
+    background-color: green;
+    grid-area: content1;
+    
+}
+#content2{
+    background-color: crimson;
+    grid-area: content2;
+}
+#content3{
+    background-color: darkmagenta;
+    grid-area: content3;
+}
+footer{
+    background-color: darksalmon;
+    grid-area: footer;
+    text-align: center;
+}
